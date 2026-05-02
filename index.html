@@ -1200,7 +1200,7 @@ async function postAdminReply(msgKey){
   if(!text){toast('⚠ กรุณาพิมพ์ข้อความ');return}
   try{
     await fbPush(`messages/${msgKey}/replies`,{
-      name:'แอดมิน',
+      name:'Fairus',
       text:S.san(text),
       time:new Date().toLocaleString('th-TH'),
       isAdmin:true
